@@ -2,6 +2,7 @@ import { Code, ExternalLink, ChevronDown } from "lucide-react";
 import Section from "./Section.js";
 import { AnimatedCard, FadeIn } from "./AnimatedComponents.js";
 import { useState } from "react";
+import Image from "next/image";
 
 const projects = [
   // ... existing code ...
@@ -20,10 +21,12 @@ export default function PortfolioSection() {
           <FadeIn key={project.id} delay={index * 100}>
             <AnimatedCard className="group overflow-hidden h-full flex flex-col bg-background/50 backdrop-blur-sm border border-border/50 rounded-xl hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5">
               <div className="aspect-video overflow-hidden relative">
-                <img 
+                <Image 
                   src={project.image} 
                   alt={project.title} 
                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                  fill
+                  style={{objectFit: 'cover'}}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end justify-center p-6">
                   <div className="flex gap-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">

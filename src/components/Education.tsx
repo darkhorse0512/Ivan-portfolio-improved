@@ -17,7 +17,7 @@ function Services({ education }: ServiceProps) {
       </SectionHeading>
       {
         education.map((item, id) => (
-          <div className="mx-auto">
+          <div className="mx-auto" key={item.name + id}>
             <Transition>
               <HoverImage
                 heading={item.name}

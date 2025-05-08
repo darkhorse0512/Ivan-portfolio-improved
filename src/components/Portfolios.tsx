@@ -6,6 +6,7 @@ import { SectionHeading} from "./ui/Typography";
 import { Portfolio, PortSamples } from "../utils/interface";
 import { useVariants } from "../utils/hooks";
 import { SlideIn, Transition } from "./ui/Transitions";
+import Image from "next/image";
 
 interface PortfoliosProps {
   portfolios: PortSamples[];
@@ -70,7 +71,7 @@ const Card = ({ title, image, description }: PortSamples) => {
           </p>
         </motion.div>
       </div>
-      <img src={image.url}
+      <Image src={image.url}
         alt={title}
         width={500}
         height={400}

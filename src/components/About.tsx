@@ -4,6 +4,7 @@ import { Dispatch, SetStateAction, useState } from "react";
 import { motion } from "motion/react";
 import { About as IAbout, Strength } from "../utils/interface";
 import { OpacityTextReveal, SlideIn, Transition } from "./ui/Transitions";
+import Image from "next/image";
 
 interface AboutProps {
   about: IAbout;
@@ -64,8 +65,8 @@ const About = ({ about, strength }: AboutProps) => {
       <div className="relative">
         <div className="sticky ">
           <Transition>
-            <img
-              src="./avatar.jpg"
+            <Image
+              src="/avatar.jpg"
               width={460}
               height={480}
               alt={about.name}
