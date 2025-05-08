@@ -178,7 +178,7 @@
       "sequence": 5,
       "image": {
         "public_id": "https://hakimhubweb.netlify.app/",
-        "url": "./Hakim-1.png"
+        "url": "/Hakim-1.png"
       },
       "description": "The website Hakim Hub appears to be a platform focused on connecting patients with qualified traditional medicine practitioners, often referred to as 'hakims'.",
       "techStack": [
@@ -194,7 +194,7 @@
       "sequence": 6,
       "image": {
         "public_id": "https://bext.vc/",
-        "url": "./Bext-1.png"
+        "url": "/Bext-1.png"
       },
       "description": "The Fintech that transforms, multiplies and facilitates your access to credit. I develop it by Vue.js for frontend, node.js for backend and postgreSQL for database.",
       "techStack": [
@@ -210,7 +210,7 @@
       "sequence": 7,
       "image": {
         "public_id": "https://www.especialrentals.com/",
-        "url": "./especial.png"
+        "url": "/especial.png"
       },
       "description": "Especial Rentals is a global vacation rental and property management company offering a curated selection of luxury apartments, studios, and multi-bedroom homes across major cities including Paris, London, Dublin, New York, Istanbul, and various destinations in India and Europe.",
       "techStack": ["PHP", "Laravel", "Apache HTTP Server", "MySQL", "Cloudflare", "Amazon Web Services"]
@@ -220,7 +220,7 @@
       "sequence": 8,
       "image": {
         "public_id": "https://coriandershop.com.ua/",
-        "url": "./Corian-1.png"
+        "url": "/Corian-1.png"
       },
       "description": "ShopCoriander.com is the online presence of Coriander Life & Style, a pair of sister boutiques located in downtown Collingwood, Ontario. Established in 1999 and proudly woman-run, Coriander has become a beloved destination for both locals and visitors seeking thoughtfully curated fashion and unique gifts.",
       "techStack": [
@@ -236,7 +236,7 @@
       "sequence": 9,
       "image": {
         "public_id": "https://guardarian.com/",
-        "url": "./guardarian.png"
+        "url": "/guardarian.png"
       },
       "description": "​Guardarian is a fully licensed and regulated crypto-to-fiat gateway that facilitates seamless transactions between fiat currencies and cryptocurrencies. The platform supports over 1,000 cryptocurrencies and more than 30 fiat currencies, catering to users in 170+ countries.",
       "techStack": ["React", "Next.js", "TypeScript", "webpack", "Node.js", "PostgreSQL", "Tailwind CSS"]
